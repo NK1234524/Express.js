@@ -7,8 +7,8 @@ app.listen(port, () => {
 })
 
 app.get( "/",(req, res) => {
-  console.log("Request recieved");
-   res.send("The Fruit list is here "); 
+  console.log("Request recieved from user");
+   res.send("The Fruit list is here for the user"); 
 });
 
 
